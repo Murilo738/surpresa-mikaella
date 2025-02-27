@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para Minha Princesa</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffe6f2;
+            text-align: center;
+            padding: 50px;
+        }
+        h1 {
+            color: #d63384;
+        }
+        p {
+            font-size: 18px;
+            color: #333;
+        }
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            margin: auto;
+        }
+        img {
+            width: 100%;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+        .music-button {
+            background-color: #ff4081;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            margin-top: 20px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Para Minha Mikaella 💖</h1>
+        <p>Minha princesa, cada momento ao seu lado é um presente. Você é a melhor parte da minha vida e eu sou infinitamente grato por ter você comigo. Te amo mais que tudo! 💕</p>
+        <img src="https://source.unsplash.com/600x400/?love,couple" alt="Nosso Amor">
+        <button class="music-button" onclick="playMusic()">Toque Nossa Música 🎶</button>
+        <audio id="loveSong" src="https://drive.google.com/file/d/1lb9MfSnk7fJDrHJKL-hNXvbmsu_P9o43/view?usp=drive_link" preload="auto"></audio>
+    </div>
+    <script>
+        function playMusic() {
+            document.getElementById('loveSong').play();
+        }
+    </script>
+</body>
+</html>
